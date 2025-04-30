@@ -39,7 +39,7 @@
         setBg(startImage);
     }
   
-    var defImage = `https://github.com/Motschen/Retroblur/blob/main/assets/background_purple.jpg?raw=true`;
+    var defImage = `https://cdn.fondecranvip.com/2024/12/TgP3kuYo-fond-decran-Paysage-98.webp`;
     console.log("(Retroblur) Button color is '"+getComputedStyle(document.body).getPropertyValue("--spice-button")+"'")
     const marketplaceSchemeCSS = null;//await waitForMarketplaceColors();
     const buttonColor = marketplaceSchemeCSS == null ? getComputedStyle(document.body).getPropertyValue("--spice-button") : getComputedStyle(marketplaceSchemeCSS).getPropertyValue("--spice-button");
